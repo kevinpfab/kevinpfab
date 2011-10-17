@@ -1,0 +1,28 @@
+!!! 5
+%html{:lang => 'en'}
+  %head
+    %title= @title
+    = render 'layout/_stylesheets.html.haml'
+  %body
+    .container
+      = render 'layout/_top_bar.html.haml'
+      %div{:class => "row logo_div"}
+        %div{:class => "span16"}
+          %h2{:class => "logo"}
+            <span class="red big_logo_letter">k</span>evin<span class="red big_logo_letter">p</span>fab
+      .row
+        %div{:class => "span2"} 
+          %ul{:class => "nav"}
+            - @nav.each do |item|
+              %li
+                - if item[:name] == @page
+                  %a{:href => "#{item[:url]}", :class => "nav_selected"}
+                    = item[:name]
+                - else
+                  %a{:href => "#{item[:url]}"}
+                    = item[:name]
+            %li
+              %a{:href => "#"}
+                Home
+        %div{:class => "span12 offset2", :style => "text-align: left;"}
+          = yield

@@ -1,0 +1,49 @@
+html, body {
+  background-image: url("../images/handmadepaper.png"); }
+
+.bg_red {
+  background: #ae1215; }
+
+.bg_blue {
+  background: #97ccee; }
+
+.bg_black {
+  background: black; }
+
+.top_bar_div {
+  margin-bottom: 20px; }
+
+.top_bar {
+  display: block;
+  height: 5px; }
+
+.logo_div {
+  margin-bottom: 100px; }
+
+.red {
+  color: #ae1215; }
+
+.blue {
+  color: #97ccee; }
+
+.big_logo_letter {
+  font-size: 50px; }
+
+.logo {
+  color: black;
+  font-size: 30px;
+  font-family: 'Arvo', serif;
+  margin-bottom: 5px; }
+
+.nav a {
+  color: #ae1215;
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 8px;
+  font-family: 'Arvo', serif; }
+
+.nav a:hover {
+  color: black; }
+
+.nav a.nav_selected {
+  color: black; }

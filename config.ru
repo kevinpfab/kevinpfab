@@ -2,6 +2,7 @@ use Rack::Static,
     :urls => [
         "/style", 
         "/images",
+        "/scripts",
         "/essays.html",
         "/bio.html",
     ],

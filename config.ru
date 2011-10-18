@@ -1,4 +1,4 @@
-usee Rack::Static, 
+use Rack::Static, 
     :urls => ["/style", "/images"],
     :root => "public"
 

@@ -1,7 +1,7 @@
 !!! 5
 %html{:lang => 'en'}
   %head
-    %title= @title
+    %title= "#{@page} - Kevin Pfab"
     = render 'layout/_stylesheets.html.haml'
   %body
     .container
@@ -17,12 +17,12 @@
               %li
                 - if item[:name] == @page
                   %a{:href => "#{item[:url]}", :class => "nav_selected"}
+                    = "#{item[:name]} //"
+                - elsif item[:url].nil?
+                  .nav_header
                     = item[:name]
                 - else
                   %a{:href => "#{item[:url]}"}
                     = item[:name]
-            %li
-              %a{:href => "#"}
-                Home
-        %div{:class => "span12 offset2", :style => "text-align: left;"}
+        %div{:class => "span12 offset2 content"}
           = yield

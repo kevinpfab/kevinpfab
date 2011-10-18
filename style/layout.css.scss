@@ -9,6 +9,28 @@ html, body {
     background-image: url('../images/handmadepaper.png');
 }
 
+h1, h2, h3, h4 {
+    color: $black;
+}
+h1 {
+    font-size: 36px;
+}
+
+h1.chill_bg {
+    text-align: right;
+    padding-right: 10px;
+    height: 400px;
+    background: url('../images/chill.png') no-repeat;
+    border: 1px solid #000;
+}
+
+
+.red {
+    color: $red;
+}
+.blue {
+    color: $blue;
+}
 .bg_red {
     background: $red;
 }
@@ -19,31 +41,22 @@ html, body {
     background: $black;
 }
 
+/* Top Bar */
 .top_bar_div {
     margin-bottom: $top_bar_spacing;
 }
-
 .top_bar {
     display: block;
     height: 5px;
 }
 
+/* Logo */
 .logo_div {
     margin-bottom: $logo_content_spacing;
 }
-
-.red {
-    color: $red;
-}
-
-.blue {
-    color: $blue;
-}
-
 .big_logo_letter {
     font-size: 50px;
 }
-
 .logo {
     color: $black;
     font-size: 30px;
@@ -51,16 +64,28 @@ html, body {
     margin-bottom: 5px;
 }
 
-.nav a {
-    color: $red;
-    font-size: 16px;
-    padding: 5px;
+/* Navigation */
+.nav li {
     margin-bottom: 8px;
     font-family: 'Arvo', serif;
+    font-size: 16px;
+}
+.nav a {
+    color: $red;
+    padding: 5px;
 }
 .nav a:hover {
     color: $black;
 }
 .nav a.nav_selected {
     color: $black;
+}
+.nav_header {
+    color: $black;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    border-bottom: 1px solid $black;
+    margin-top: 15px;
 }

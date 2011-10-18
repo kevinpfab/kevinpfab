@@ -1,6 +1,25 @@
 html, body {
   background-image: url("../images/handmadepaper.png"); }
 
+h1, h2, h3, h4 {
+  color: black; }
+
+h1 {
+  font-size: 36px; }
+
+h1.chill_bg {
+  text-align: right;
+  padding-right: 10px;
+  height: 400px;
+  background: url("../images/chill.png") no-repeat;
+  border: 1px solid #000; }
+
+.red {
+  color: #ae1215; }
+
+.blue {
+  color: #97ccee; }
+
 .bg_red {
   background: #ae1215; }
 
@@ -10,6 +29,7 @@ html, body {
 .bg_black {
   background: black; }
 
+/* Top Bar */
 .top_bar_div {
   margin-bottom: 20px; }
 
@@ -17,14 +37,9 @@ html, body {
   display: block;
   height: 5px; }
 
+/* Logo */
 .logo_div {
   margin-bottom: 100px; }
-
-.red {
-  color: #ae1215; }
-
-.blue {
-  color: #97ccee; }
 
 .big_logo_letter {
   font-size: 50px; }
@@ -35,15 +50,27 @@ html, body {
   font-family: 'Arvo', serif;
   margin-bottom: 5px; }
 
+/* Navigation */
+.nav li {
+  margin-bottom: 8px;
+  font-family: 'Arvo', serif;
+  font-size: 16px; }
+
 .nav a {
   color: #ae1215;
-  font-size: 16px;
-  padding: 5px;
-  margin-bottom: 8px;
-  font-family: 'Arvo', serif; }
+  padding: 5px; }
 
 .nav a:hover {
   color: black; }
 
 .nav a.nav_selected {
   color: black; }
+
+.nav_header {
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  margin-bottom: 3px;
+  margin-left: 5px;
+  border-bottom: 1px solid black;
+  margin-top: 15px; }

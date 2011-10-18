@@ -3,7 +3,7 @@ use Rack::Static,
         "/style", 
         "/images",
         "/essays.html",
-        "/bio.html"
+        "/bio.html",
     ],
     :root => "public"
 

@@ -9,11 +9,14 @@ end
 # Navigation
 # Execute before each page render
 before /.*html\.haml/ do
-    @site = "http://kevinpfab.com/"
     @nav = [
         {
             :url => kp,
             :name => "Home",
+        },
+        {
+            :url => kp("bio.html"),
+            :name => "Bio",
         },
         {
             :url => kp("essays.html"),
@@ -25,6 +28,14 @@ before /.*html\.haml/ do
         {
             :url => "http://github.com/kevinpfab",
             :name => "Github",
+        },
+        {
+            :url => "http://facebook.com/Swoop",
+            :name => "Facebook",
+        },
+        {
+            :url => "http://twitter.com/kevinpfab",
+            :name => "Twitter",
         },
     ]
 end

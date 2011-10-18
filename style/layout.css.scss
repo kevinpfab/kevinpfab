@@ -24,6 +24,17 @@ h1.chill_bg {
     border: 1px solid #000;
 }
 
+p {
+    font-size: 14px;
+}
+p a{
+    color: $red;
+}
+p a:hover{
+    color: $black;
+    text-decoration: underline;
+}
+
 
 .red {
     color: $red;
@@ -88,4 +99,9 @@ h1.chill_bg {
     margin-left: 5px;
     border-bottom: 1px solid $black;
     margin-top: 15px;
+}
+
+.footer {
+    margin-top: 50px;
+    font-size: 10px;
 }

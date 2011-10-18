@@ -5,17 +5,18 @@ h1, h2, h3, h4 {
   color: black; }
 
 h1 {
-  font-size: 36px; }
+  font-size: 2em; }
 
 h1.chill_bg {
   text-align: right;
   padding-right: 10px;
   height: 400px;
   background: url("../images/chill.png") no-repeat;
-  border: 1px solid #000; }
+  border: 1px solid #000;
+  font-family: 'Arvo', serif; }
 
 p {
-  font-size: 14px; }
+  font-size: 1em; }
 
 p a {
   color: #ae1215; }
@@ -41,22 +42,20 @@ p a:hover {
 
 /* Top Bar */
 .top_bar_div {
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
 
 .top_bar {
   display: block;
-  height: 5px; }
+  height: 2px; }
 
 /* Logo */
 .logo_div {
-  margin-bottom: 100px; }
-
-.big_logo_letter {
-  font-size: 50px; }
+  margin-top: 50px;
+  margin-bottom: 40px; }
 
 .logo {
   color: black;
-  font-size: 30px;
+  font-size: 1.75em;
   font-family: 'Arvo', serif;
   margin-bottom: 5px; }
 
@@ -64,7 +63,7 @@ p a:hover {
 .nav li {
   margin-bottom: 8px;
   font-family: 'Arvo', serif;
-  font-size: 16px; }
+  font-size: 1.25em; }
 
 .nav a {
   color: #ae1215;
@@ -87,4 +86,4 @@ p a:hover {
 
 .footer {
   margin-top: 50px;
-  font-size: 10px; }
+  font-size: 0.75em; }

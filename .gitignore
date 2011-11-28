@@ -1,4 +1,14 @@
+# mac
 *.DS_Store
+
+# sass
 *.sass-cache
 *.sass-cache/*
+
+# photoshop
 *.psd
+
+# vagrant
+Vagrantfile
+.vagrant
+
